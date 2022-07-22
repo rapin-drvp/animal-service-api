@@ -1,0 +1,15 @@
+# Context
+app:
+  name: "animal-service-api"
+server:
+  servlet:
+    context-path: "/${app.name}"
+  port: "8885"
+
+# App version config use actuator lib
+management:
+  endpoints:
+    web:
+      base-path: "/"
+      exposure:
+        include: "health,info"
