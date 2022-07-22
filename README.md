@@ -1,29 +1,11 @@
 # README #
-
-This README would normally document whatever steps are necessary to get your application up and running.
-
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+This a service create by
+* Apache Maven 3.8.5
+* Java version 11
+* Spring-boot 2.7.1
+# 1.Microservice knowledge sharing 1st. #
+* https://<ip>/<context-root>/<version>/<api-name>
+# 2.Homework Microservice knowledge sharing 2nd. #
+* create response from v1/manage api so in response have cat and dog object by request
+  http://localhost:8885/animal-service-api/v1/manage/cd
+* create feature branch by format 2nd-<name of developer>
