@@ -13,3 +13,10 @@ management:
       base-path: "/"
       exposure:
         include: "health,info"
+
+# Log pattern use lombok lib
+logging:
+  level:
+    app: "DEBUG"
+  pattern:
+    console: "%d{yyyy-MM-dd'T'HH:mm:ss.SXXX}|%level|${app.name}|%X{X-Correlation-Id}|${PID}|%thread|%logger{40}|%message%n"
